@@ -9,8 +9,8 @@ public class Main {
         //LoopExercises.run();
         //ErrorExercises.run();
         //GenericExercises.run();
-        //new AnonymousClassExercise().run();
-        BigDecimalExercises.run();
+        new AnonymousClassExercise().run();
+        //BigDecimalExercises.run();
     }
 
 }

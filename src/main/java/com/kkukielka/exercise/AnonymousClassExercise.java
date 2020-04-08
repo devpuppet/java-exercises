@@ -4,7 +4,8 @@ public class AnonymousClassExercise {
 
     public void run() {
 
-        int age = new Age() { // anonymous class that implements Age interface
+        // anonymous class that implements Age interface
+        int age = new Age() {
             public int getAge() {
                     return value;
             }
@@ -13,13 +14,28 @@ public class AnonymousClassExercise {
         System.out.println("Age: " + age);
 
 
-        int height = new Height(180) { // anonymous class that implements abstract Height class
+        // anonymous class that implements abstract Height class
+        int height = new Height(180) {
             public int getValue() {
                 return value;
             }
         }.getValue();
 
         System.out.println("Height: " + height);
+
+        // weird runnable
+        Runnable obj = new Object() {
+            int val = 0;
+            {
+                val = 5;
+            }
+            void showVal() {
+                System.out.println(val);
+            }
+        }::showVal; // we assign showVal method reference to obj. This is possible because
+        // Runnable is a functional interface (has one method with identical signature as showVal
+        // - 0 arguments and returns void)
+        obj.run(); // displays 5
 
     }
 
