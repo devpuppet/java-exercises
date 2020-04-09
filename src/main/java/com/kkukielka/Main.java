@@ -11,7 +11,8 @@ public class Main {
         //GenericExercises.run();
         //new AnonymousClassExercise().run();
         //BigDecimalExercises.run();
-        ArraysExercises.run();
+        //ArraysExercises.run();
+        CharsAndNumbersExercises.run();
     }
 
 }
