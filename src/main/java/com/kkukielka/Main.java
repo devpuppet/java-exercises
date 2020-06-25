@@ -8,11 +8,11 @@ public class Main {
         //SubstringExercises.run();
         //LoopExercises.run();
         //ErrorExercises.run();
-        //GenericExercises.run();
+        GenericExercises.run2();
         //new AnonymousClassExercise().run();
         //BigDecimalExercises.run();
         //ArraysExercises.run();
-        CharsAndNumbersExercises.run();
+        //CharsAndNumbersExercises.run();
     }
 
 }
