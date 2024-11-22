@@ -13,7 +13,9 @@ public class Main {
         //BigDecimalExercises.run();
         //ArraysExercises.run();
         //CharsAndNumbersExercises.run();
-        new PalindromeInteger().isPalindrome(1410110141);
+//        new PalindromeInteger().isPalindrome(1410110141);
+        new RomanToInteger().romanToInt("MCMXCIV");
+//        new RomanToInteger().romanToInt("III");
     }
 
 }
