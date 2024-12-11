@@ -17,7 +17,11 @@ public class Main {
 //        new RomanToInteger().romanToInt("MCMXCIV");
 //        new RomanToInteger().romanToInt("III");
 //        new LongestCommonPrefix().longestCommonPrefix(new String[] {"flower","flight","flow"});
-        new LongestCommonPrefix().longestCommonPrefix(new String[] {"ab","a"});
+//        new LongestCommonPrefix().longestCommonPrefix(new String[] {"ab","a"});
+//        new ValidParentheses().isValid("[()](){}");
+//        new ValidParentheses().isValid("){");
+        new ValidParentheses().isValid("(])");
+
     }
 
 }
