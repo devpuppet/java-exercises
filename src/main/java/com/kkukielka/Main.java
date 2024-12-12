@@ -20,8 +20,11 @@ public class Main {
 //        new LongestCommonPrefix().longestCommonPrefix(new String[] {"ab","a"});
 //        new ValidParentheses().isValid("[()](){}");
 //        new ValidParentheses().isValid("){");
-        new ValidParentheses().isValid("(])");
-
+//        new ValidParentheses().isValid("(])");
+        MergeTwoSortiedLists merge = new MergeTwoSortiedLists();
+        merge.mergeTwoLists(merge.buildTestList1(), merge.buildTestList2());
+        merge.mergeTwoLists(null, merge.buildTestList3());
+        merge.mergeTwoLists(merge.buildTestList4(), null);
     }
 
 }
