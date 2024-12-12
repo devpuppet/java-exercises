@@ -21,10 +21,11 @@ public class Main {
 //        new ValidParentheses().isValid("[()](){}");
 //        new ValidParentheses().isValid("){");
 //        new ValidParentheses().isValid("(])");
-        MergeTwoSortiedLists merge = new MergeTwoSortiedLists();
-        merge.mergeTwoLists(merge.buildTestList1(), merge.buildTestList2());
-        merge.mergeTwoLists(null, merge.buildTestList3());
-        merge.mergeTwoLists(merge.buildTestList4(), null);
+//        MergeTwoSortiedLists merge = new MergeTwoSortiedLists();
+//        merge.mergeTwoLists(merge.buildTestList1(), merge.buildTestList2());
+//        merge.mergeTwoLists(null, merge.buildTestList3());
+//        merge.mergeTwoLists(merge.buildTestList4(), null);
+        new RemoveDuplicatesFromSortedArray().removeDuplicates(new int[] {-3,-1,0,0,0,3,3});
     }
 
 }
