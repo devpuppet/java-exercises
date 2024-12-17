@@ -28,7 +28,9 @@ public class Main {
 //        new RemoveDuplicatesFromSortedArray().removeDuplicates(new int[] {-3,-1,0,0,0,3,3});
 //        new RemoveElement().removeElement(new int[] {0,1,2,2,3,0,4,2}, 2);
 //        new FirstOccurenceInString().strStr("sadbutsad", "sad");
-        new FirstOccurrenceInString().strStr("mississippi", "issip");
+//        new FirstOccurrenceInString().strStr("mississippi", "issip");
+//        new SearchIndexPosition().searchInsert(new int[] {1,3,5,6}, 5);
+        new SearchIndexPosition().searchInsert(new int[] {1,3,5,6}, 7);
     }
 
 }
