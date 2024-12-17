@@ -31,7 +31,8 @@ public class Main {
 //        new FirstOccurrenceInString().strStr("mississippi", "issip");
 //        new SearchIndexPosition().searchInsert(new int[] {1,3,5,6}, 5);
 //        new SearchIndexPosition().searchInsert(new int[] {1,3,5,6}, 7);
-        new LengthOfLastWord().lengthOfLastWord("   fly me   to   the moon  ");
+//        new LengthOfLastWord().lengthOfLastWord("   fly me   to   the moon  ");
+        new PlusOne().plusOne(new int[] {9});
     }
 
 }
