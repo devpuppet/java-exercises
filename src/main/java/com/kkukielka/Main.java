@@ -32,7 +32,11 @@ public class Main {
 //        new SearchIndexPosition().searchInsert(new int[] {1,3,5,6}, 5);
 //        new SearchIndexPosition().searchInsert(new int[] {1,3,5,6}, 7);
 //        new LengthOfLastWord().lengthOfLastWord("   fly me   to   the moon  ");
-        new PlusOne().plusOne(new int[] {9});
+//        new PlusOne().plusOne(new int[] {9});
+//        new AddBinary().addBinary("11", "1");
+//        new AddBinary().addBinary("1010", "1011");
+//        new AddBinary().addBinary("1", "111");
+        new AddBinary().addBinary("1111", "1111");
     }
 
 }
