@@ -36,7 +36,8 @@ public class Main {
 //        new AddBinary().addBinary("11", "1");
 //        new AddBinary().addBinary("1010", "1011");
 //        new AddBinary().addBinary("1", "111");
-        new AddBinary().addBinary("1111", "1111");
+//        new AddBinary().addBinary("1111", "1111");
+        new Sqrt().mySqrt(5);
     }
 
 }
