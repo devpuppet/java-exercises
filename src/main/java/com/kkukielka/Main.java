@@ -40,7 +40,9 @@ public class Main {
 //        new Sqrt().mySqrt(5);
 //        int res = new ClimbStairs().climbStairs(5);
 //        new RemoveDuplicatesFromSortedList().deleteDuplicates(new RemoveDuplicatesFromSortedList().buildTestList2());
-        new BinaryTreeInorderTraversal().inorderTraversal(new BinaryTreeInorderTraversal().buildTestList1());
+//        new BinaryTreeInorderTraversal().inorderTraversal(new BinaryTreeInorderTraversal().buildTestList1());
+//        new SameTree().isSameTree(new SameTree().buildTestNode1(), new SameTree().buildTestNode1());
+        new SameTree().isSameTree(new SameTree().buildTestNode2(), new SameTree().buildTestNode3());
     }
 
 }
