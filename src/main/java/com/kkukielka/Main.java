@@ -38,8 +38,8 @@ public class Main {
 //        new AddBinary().addBinary("1", "111");
 //        new AddBinary().addBinary("1111", "1111");
 //        new Sqrt().mySqrt(5);
-        int res = new ClimbStairs().climbStairs(5);
-        System.out.println(res);
+//        int res = new ClimbStairs().climbStairs(5);
+        new RemoveDuplicatesFromSortedList().deleteDuplicates(new RemoveDuplicatesFromSortedList().buildTestList2());
     }
 
 }
