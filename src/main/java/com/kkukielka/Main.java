@@ -39,7 +39,8 @@ public class Main {
 //        new AddBinary().addBinary("1111", "1111");
 //        new Sqrt().mySqrt(5);
 //        int res = new ClimbStairs().climbStairs(5);
-        new RemoveDuplicatesFromSortedList().deleteDuplicates(new RemoveDuplicatesFromSortedList().buildTestList2());
+//        new RemoveDuplicatesFromSortedList().deleteDuplicates(new RemoveDuplicatesFromSortedList().buildTestList2());
+        new BinaryTreeInorderTraversal().inorderTraversal(new BinaryTreeInorderTraversal().buildTestList1());
     }
 
 }
