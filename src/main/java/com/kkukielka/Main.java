@@ -42,7 +42,8 @@ public class Main {
 //        new RemoveDuplicatesFromSortedList().deleteDuplicates(new RemoveDuplicatesFromSortedList().buildTestList2());
 //        new BinaryTreeInorderTraversal().inorderTraversal(new BinaryTreeInorderTraversal().buildTestList1());
 //        new SameTree().isSameTree(new SameTree().buildTestNode1(), new SameTree().buildTestNode1());
-        new SameTree().isSameTree(new SameTree().buildTestNode2(), new SameTree().buildTestNode3());
+//        new SameTree().isSameTree(new SameTree().buildTestNode2(), new SameTree().buildTestNode3());
+        new SymmetricTree().isSymmetric(new SymmetricTree().buildTestNode1());
     }
 
 }
