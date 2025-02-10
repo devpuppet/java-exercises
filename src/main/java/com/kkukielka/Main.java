@@ -43,7 +43,8 @@ public class Main {
 //        new BinaryTreeInorderTraversal().inorderTraversal(new BinaryTreeInorderTraversal().buildTestList1());
 //        new SameTree().isSameTree(new SameTree().buildTestNode1(), new SameTree().buildTestNode1());
 //        new SameTree().isSameTree(new SameTree().buildTestNode2(), new SameTree().buildTestNode3());
-        new SymmetricTree().isSymmetric(new SymmetricTree().buildTestNode1());
+//        new SymmetricTree().isSymmetric(new SymmetricTree().buildTestNode1());
+        new MaximumDepthOfBinaryTree().maxDepth(new MaximumDepthOfBinaryTree().buildTestNode());
     }
 
 }
