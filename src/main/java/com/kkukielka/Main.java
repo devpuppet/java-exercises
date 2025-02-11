@@ -51,7 +51,8 @@ public class Main {
 //        new BinaryTreePreorderTraversal().preorderTraversal(new BinaryTreePreorderTraversal().buildTestNode());
 //        new BinaryTreePostorderTraversal().postorderTraversal(new BinaryTreePostorderTraversal().buildTestNode());
 //        new InvertBinaryTree().invertTree(new InvertBinaryTree().buildTestNode());
-        new BinaryTreePaths().binaryTreePaths(new BinaryTreePaths().buildTestNode());
+//        new BinaryTreePaths().binaryTreePaths(new BinaryTreePaths().buildTestNode());
+        new SumOfLeftLeaves().sumOfLeftLeaves(new SumOfLeftLeaves().buildTestNode());
     }
 
 }
