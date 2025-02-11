@@ -45,7 +45,8 @@ public class Main {
 //        new SameTree().isSameTree(new SameTree().buildTestNode2(), new SameTree().buildTestNode3());
 //        new SymmetricTree().isSymmetric(new SymmetricTree().buildTestNode1());
 //        new MaximumDepthOfBinaryTree().maxDepth(new MaximumDepthOfBinaryTree().buildTestNode());
-        new BalancedBinaryTree().isBalanced(new BalancedBinaryTree().buildTestNode2());
+//        new BalancedBinaryTree().isBalanced(new BalancedBinaryTree().buildTestNode2());
+        new MinimumDepthOfBinaryTree().minDepth(new MinimumDepthOfBinaryTree().buildTestNode3());
     }
 
 }
