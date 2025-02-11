@@ -48,7 +48,8 @@ public class Main {
 //        new BalancedBinaryTree().isBalanced(new BalancedBinaryTree().buildTestNode2());
 //        new MinimumDepthOfBinaryTree().minDepth(new MinimumDepthOfBinaryTree().buildTestNode3());
 //        new PathSum().hasPathSum(new PathSum().buildTestNode2(), -5);
-        new BinaryTreePreorderTraversal().preorderTraversal(new BinaryTreePreorderTraversal().buildTestNode());
+//        new BinaryTreePreorderTraversal().preorderTraversal(new BinaryTreePreorderTraversal().buildTestNode());
+        new BinaryTreePostorderTraversal().postorderTraversal(new BinaryTreePostorderTraversal().buildTestNode());
     }
 
 }
