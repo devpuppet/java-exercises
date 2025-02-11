@@ -50,7 +50,8 @@ public class Main {
 //        new PathSum().hasPathSum(new PathSum().buildTestNode2(), -5);
 //        new BinaryTreePreorderTraversal().preorderTraversal(new BinaryTreePreorderTraversal().buildTestNode());
 //        new BinaryTreePostorderTraversal().postorderTraversal(new BinaryTreePostorderTraversal().buildTestNode());
-        new InvertBinaryTree().invertTree(new InvertBinaryTree().buildTestNode());
+//        new InvertBinaryTree().invertTree(new InvertBinaryTree().buildTestNode());
+        new BinaryTreePaths().binaryTreePaths(new BinaryTreePaths().buildTestNode());
     }
 
 }
