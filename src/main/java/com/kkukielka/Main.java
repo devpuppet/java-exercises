@@ -54,7 +54,8 @@ public class Main {
 //        new BinaryTreePaths().binaryTreePaths(new BinaryTreePaths().buildTestNode());
 //        new SumOfLeftLeaves().sumOfLeftLeaves(new SumOfLeftLeaves().buildTestNode());
 //        new IslandPerimeter().islandPerimeter(new IslandPerimeter().buildTestGrid3());
-        new FindModeInBinarySearchTree().findMode(new FindModeInBinarySearchTree().buildTestNode());
+//        new FindModeInBinarySearchTree().findMode(new FindModeInBinarySearchTree().buildTestNode());
+        new MinimumAbsoluteDifferenceInBST().getMinimumDifference(new MinimumAbsoluteDifferenceInBST().buildTestNode());
     }
 
 }
