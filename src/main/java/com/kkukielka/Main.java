@@ -55,7 +55,8 @@ public class Main {
 //        new SumOfLeftLeaves().sumOfLeftLeaves(new SumOfLeftLeaves().buildTestNode());
 //        new IslandPerimeter().islandPerimeter(new IslandPerimeter().buildTestGrid3());
 //        new FindModeInBinarySearchTree().findMode(new FindModeInBinarySearchTree().buildTestNode());
-        new MinimumAbsoluteDifferenceInBST().getMinimumDifference(new MinimumAbsoluteDifferenceInBST().buildTestNode());
+//        new MinimumAbsoluteDifferenceInBST().getMinimumDifference(new MinimumAbsoluteDifferenceInBST().buildTestNode());
+        new DiameterOfBinaryTree().diameterOfBinaryTree(new DiameterOfBinaryTree().buildTestNode());
     }
 
 }
