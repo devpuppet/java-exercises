@@ -56,7 +56,10 @@ public class Main {
 //        new IslandPerimeter().islandPerimeter(new IslandPerimeter().buildTestGrid3());
 //        new FindModeInBinarySearchTree().findMode(new FindModeInBinarySearchTree().buildTestNode());
 //        new MinimumAbsoluteDifferenceInBST().getMinimumDifference(new MinimumAbsoluteDifferenceInBST().buildTestNode());
-        new DiameterOfBinaryTree().diameterOfBinaryTree(new DiameterOfBinaryTree().buildTestNode());
+//        new DiameterOfBinaryTree().diameterOfBinaryTree(new DiameterOfBinaryTree().buildTestNode());
+        MergeTwoBinaryTrees merge = new MergeTwoBinaryTrees();
+        merge.mergeTrees(merge.buildTestNode1(), merge.buildTestNode2());
+
     }
 
 }
