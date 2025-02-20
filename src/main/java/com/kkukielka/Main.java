@@ -57,9 +57,9 @@ public class Main {
 //        new FindModeInBinarySearchTree().findMode(new FindModeInBinarySearchTree().buildTestNode());
 //        new MinimumAbsoluteDifferenceInBST().getMinimumDifference(new MinimumAbsoluteDifferenceInBST().buildTestNode());
 //        new DiameterOfBinaryTree().diameterOfBinaryTree(new DiameterOfBinaryTree().buildTestNode());
-        MergeTwoBinaryTrees merge = new MergeTwoBinaryTrees();
-        merge.mergeTrees(merge.buildTestNode1(), merge.buildTestNode2());
-
+//        MergeTwoBinaryTrees merge = new MergeTwoBinaryTrees();
+//        merge.mergeTrees(merge.buildTestNode1(), merge.buildTestNode2());
+        new MaximumDepthOfNaryTree().maxDepth(new MaximumDepthOfNaryTree().buildTestNode());
     }
 
 }
