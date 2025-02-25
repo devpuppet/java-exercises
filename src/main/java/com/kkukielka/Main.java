@@ -59,7 +59,8 @@ public class Main {
 //        new DiameterOfBinaryTree().diameterOfBinaryTree(new DiameterOfBinaryTree().buildTestNode());
 //        MergeTwoBinaryTrees merge = new MergeTwoBinaryTrees();
 //        merge.mergeTrees(merge.buildTestNode1(), merge.buildTestNode2());
-        new MaximumDepthOfNaryTree().maxDepth(new MaximumDepthOfNaryTree().buildTestNode());
+//        new MaximumDepthOfNaryTree().maxDepth(new MaximumDepthOfNaryTree().buildTestNode());
+        new BinaryTreeTilt().findTilt(new BinaryTreeTilt().buildTestNode3());
     }
 
 }
