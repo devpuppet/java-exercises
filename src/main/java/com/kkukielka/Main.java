@@ -60,7 +60,8 @@ public class Main {
 //        MergeTwoBinaryTrees merge = new MergeTwoBinaryTrees();
 //        merge.mergeTrees(merge.buildTestNode1(), merge.buildTestNode2());
 //        new MaximumDepthOfNaryTree().maxDepth(new MaximumDepthOfNaryTree().buildTestNode());
-        new BinaryTreeTilt().findTilt(new BinaryTreeTilt().buildTestNode3());
+//        new BinaryTreeTilt().findTilt(new BinaryTreeTilt().buildTestNode3());
+        new SortedArrayToBinarySearchTree().sortedArrayToBST(new SortedArrayToBinarySearchTree().buildTestArray());
     }
 
 }
