@@ -61,7 +61,8 @@ public class Main {
 //        merge.mergeTrees(merge.buildTestNode1(), merge.buildTestNode2());
 //        new MaximumDepthOfNaryTree().maxDepth(new MaximumDepthOfNaryTree().buildTestNode());
 //        new BinaryTreeTilt().findTilt(new BinaryTreeTilt().buildTestNode3());
-        new SortedArrayToBinarySearchTree().sortedArrayToBST(new SortedArrayToBinarySearchTree().buildTestArray());
+//        new SortedArrayToBinarySearchTree().sortedArrayToBST(new SortedArrayToBinarySearchTree().buildTestArray());
+        new PascalTriangle().generate(4);
     }
 
 }
